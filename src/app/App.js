@@ -1,10 +1,12 @@
 import React from "react";
-import Typography from "../components/Typography";
+// import Typography from "../components/Typography";
+import ButtonMaterial from "../components/Button";
 
 const App = () => {
   return (
     <div>
-      <Typography />
+      {/* <Typography />*/}
+      <ButtonMaterial />
     </div>
   );
 };
