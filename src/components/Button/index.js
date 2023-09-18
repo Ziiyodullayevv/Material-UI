@@ -4,13 +4,18 @@ import {
   IconButton,
   Stack,
   ThemeProvider,
+  ToggleButton,
+  ToggleButtonGroup,
   Typography,
   createTheme,
 } from "@mui/material";
-import React from "react";
+import React, { useState } from "react";
 
 // Material ui Icons
 import AdbIcon from "@mui/icons-material/Adb";
+import FormatItalicIcon from "@mui/icons-material/FormatItalic";
+import FormatBoldIcon from "@mui/icons-material/FormatBold";
+import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
 
 // Mui orqali color tanlash:
 
@@ -34,6 +39,11 @@ theme = createTheme(theme, {
 });
 
 const ButtonMaterial = () => {
+  const [formats, setFormats] = useState([]);
+  console.log(formats);
+  const handleFormatChange = () => {
+    setFormats(formats);
+  };
   return (
     <ThemeProvider theme={theme}>
       <Stack spacing={4}>
@@ -96,6 +106,29 @@ const ButtonMaterial = () => {
           <Button>center</Button>
           <Button>Reght</Button>
         </ButtonGroup>
+      </Stack>
+
+      <Typography variant="h4">Toggle Button</Typography>
+
+      <Stack spacing={3} direction={"row"}>
+        <ToggleButtonGroup
+          value={formats}
+          onChange={handleFormatChange}
+          aria-label="text formatting"
+          exclusive // typscirpt organib keyin koramiz
+        >
+          <ToggleButton value={"bold"}>
+            <FormatBoldIcon />
+          </ToggleButton>
+
+          <ToggleButton value={"italic"}>
+            <FormatItalicIcon />
+          </ToggleButton>
+
+          <ToggleButton value="underlined">
+            <FormatUnderlinedIcon />
+          </ToggleButton>
+        </ToggleButtonGroup>
       </Stack>
     </ThemeProvider>
   );
