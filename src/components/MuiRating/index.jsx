@@ -24,6 +24,20 @@ const MuiRating = () => {
           precision={0.5}
           readOnly
         />
+
+        <Rating
+          name="half-rating-read"
+          defaultValue={2.5}
+          precision={0.5}
+          readOnly
+        />
+
+        <Rating
+          name="half-rating-read"
+          defaultValue={2.5}
+          precision={0.5}
+          readOnly
+        />
       </Stack>
     </div>
   );
