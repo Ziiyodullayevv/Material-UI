@@ -1,5 +1,6 @@
 import React from "react";
-import MuiRadioBtn from "../components/MuiRadioBtn";
+import MuiCheckbox from "../components/MuiCheckbox";
+// import MuiRadioBtn from "../components/MuiRadioBtn";
 // import Typography from "../components/Typography";
 // import ButtonMaterial from "../components/Button";
 // import MuiTextField from "../components/MuiTextField";
@@ -11,7 +12,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiRadioBtn />
+      <MuiCheckbox />
     </div>
   );
 };
