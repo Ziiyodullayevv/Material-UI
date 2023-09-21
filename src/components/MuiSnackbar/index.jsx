@@ -16,14 +16,6 @@ const MuiSnackbar = () => {
   return (
     <div>
       <Button onClick={() => setOpen(true)}>Submit</Button>
-      {/*  <Snackbar
-        message="Form submitted successfully"
-        autoHideDuration={4000}
-        open={open}
-        onClose={handleClose}
-        anchorOrigin={{ vertical: "top", horizontal: "center" }}
-  />*/}
-
       {/*Cutimization */}
       <Snackbar open={open} autoHideDuration={5000} onClose={handleClose}>
         <SnackbarAlert onClose={handleClose} severity="success">
