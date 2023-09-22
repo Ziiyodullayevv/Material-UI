@@ -1,6 +1,7 @@
 import React from "react";
+import MuiLayout from "../components/MuiLayout";
 // import MuiRating from "../components/MuiRating";
-import MuiAutoComplate from "../components/MuiAutocomlete";
+// import MuiAutoComplate from "../components/MuiAutocomlete";
 // import MuiSwitch from "../components/MuiSwitch";
 // import MuiCheckbox from "../components/MuiCheckbox";
 // import MuiRadioBtn from "../components/MuiRadioBtn";
@@ -15,7 +16,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiAutoComplate />
+      <MuiLayout />
     </div>
   );
 };
