@@ -21,6 +21,8 @@ const MuiSpeedDail = () => {
         tooltipOpen
       />
       <SpeedDialAction icon={<Share />} tooltipTitle={"Share"} tooltipOpen />
+      <SpeedDialAction icon={<Share />} tooltipTitle={"Share"} tooltipOpen />
+      <SpeedDialAction icon={<Share />} tooltipTitle={"Share"} tooltipOpen />
     </SpeedDial>
   );
 };
