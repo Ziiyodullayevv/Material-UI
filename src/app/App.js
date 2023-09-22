@@ -1,5 +1,6 @@
 import React from "react";
-import MuiGrid from "../components/MuiGrid";
+// import MuiGrid from "../components/MuiGrid";
+import MuiPaper from "../components/MuiPaper";
 // import MuiStack from "../components/MuiStack";
 // import MuiLayout from "../components/MuiLayout";
 // import MuiRating from "../components/MuiRating";
@@ -15,10 +16,10 @@ import MuiGrid from "../components/MuiGrid";
 const App = () => {
   return (
     <div>
-      <MuiGrid />
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
+      <MuiPaper />
     </div>
   );
 };
