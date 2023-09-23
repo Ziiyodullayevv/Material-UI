@@ -1,6 +1,7 @@
 import React from "react";
 // import MuiGrid from "../components/MuiGrid";
-import MuiPaper from "../components/MuiPaper";
+// import MuiPaper from "../components/MuiPaper";
+import MuiCard from "../components/MuiCard";
 // import MuiStack from "../components/MuiStack";
 // import MuiLayout from "../components/MuiLayout";
 // import MuiRating from "../components/MuiRating";
@@ -19,7 +20,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiPaper />
+      <MuiCard />
     </div>
   );
 };
