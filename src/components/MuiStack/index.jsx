@@ -36,13 +36,22 @@ const MuiStack = () => {
       >
         Codevalution
       </Box>
+
       <Box
-        display={"flex"}
-        height={"100px"}
-        width={"100px"}
-        bgcolor={"red"}
-        p={2}
-      ></Box>
+        component={"div"}
+        sx={{
+          backgroundColor: "primary.main",
+          color: "white",
+          width: "100px",
+          height: "100px",
+          padding: "16px",
+          "&:hover": {
+            backgroundColor: "primary.light",
+          },
+        }}
+      >
+        Codevalution
+      </Box>
     </Stack>
   );
 };
