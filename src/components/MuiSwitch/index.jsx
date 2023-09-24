@@ -86,6 +86,17 @@ const MuiSwitch = () => {
             }
             label="Antoine Llorca"
           />
+
+          <FormControlLabel
+            control={
+              <Switch
+                checked={state.antoine}
+                onChange={handleSwitchChange}
+                name="antoine"
+              />
+            }
+            label="Antoine Llorca"
+          />
         </FormGroup>
         <FormHelperText>Be careful</FormHelperText>
       </FormControl>
