@@ -1,6 +1,7 @@
 import React from "react";
 // import MuiAccordion from "../components/MuiAccordion";?
-import MuiNavbar from "../components/MuiNavbar";
+// import MuiNavbar from "../components/MuiNavbar";
+import MuiMenu from "../components/MuiMenu";
 // import MuiGrid from "../components/MuiGrid";
 // import MuiPaper from "../components/MuiPaper";
 // import MuiCard from "../components/MuiCard";
@@ -23,7 +24,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiNavbar />
+      <MuiMenu />
     </div>
   );
 };
