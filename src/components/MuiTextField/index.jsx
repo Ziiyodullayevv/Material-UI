@@ -43,6 +43,21 @@ const MuiTextField = () => {
           }}
         />
       </Stack>
+
+      <Stack direction={"row"} spacing={4}>
+        <TextField
+          label="Amount"
+          InputProps={{
+            startAdornment: <InputAdornment position="start">$</InputAdornment>,
+          }}
+        />
+        <TextField
+          label="Weight"
+          InputProps={{
+            endAdornment: <InputAdornment position="end">kg</InputAdornment>,
+          }}
+        />
+      </Stack>
     </Stack>
   );
 };
