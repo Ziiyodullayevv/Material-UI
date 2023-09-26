@@ -1,6 +1,7 @@
 import React from "react";
-import MuiBreadcrumbs from "../components/MuiBreadcrumbs";
-// import MuiAccordion from "../components/MuiAccordion";?
+import MuiDrawer from "../components/MuiDrawer";
+// import MuiBreadcrumbs from "../components/MuiBreadcrumbs";
+// import MuiAccordion from "../components/MuiAccordion";
 // import MuiNavbar from "../components/MuiNavbar";
 // import MuiMenu from "../components/MuiMenu";
 // import MuiLink from "../components/MuiLink";
@@ -26,7 +27,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiBreadcrumbs />
+      <MuiDrawer />
     </div>
   );
 };
