@@ -1,6 +1,7 @@
 import React from "react";
 import MuiBadge from "../components/MuiBadge";
 import MuiList from "../components/MuiList";
+import MuiChip from "../components/MuiChip";
 // import MuiBottomNavigation from "../components/BottomNavigation";
 // import MuiAvatar from "../components/MuiAvatar";
 // import MuiDrawer from "../components/MuiDrawer";
@@ -34,6 +35,7 @@ const App = () => {
       {/*<MuiTextField />*/}
       <MuiBadge />
       <MuiList />
+      <MuiChip />
     </div>
   );
 };
