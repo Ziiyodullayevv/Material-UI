@@ -23,6 +23,13 @@ const MuiAvatar = () => {
             src={"https://randomuser.me/api/portraits/women/79.jpg"}
           ></Avatar>
         </AvatarGroup>
+
+        <Avatar variant="square" sx={{ bgcolor: "primary.light" }}>
+          BM
+        </Avatar>
+        <Avatar variant="rounded" sx={{ bgcolor: "success.light" }}>
+          BL
+        </Avatar>
       </Stack>
     </Stack>
   );
