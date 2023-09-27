@@ -1,6 +1,7 @@
 import React from "react";
+import MuiBottomNavigation from "../components/BottomNavigation";
 // import MuiDrawer from "../components/MuiDrawer";
-import MuiSpeedDail from "../components/MuiSpeedDail";
+// import MuiSpeedDail from "../components/MuiSpeedDail";
 // import MuiBreadcrumbs from "../components/MuiBreadcrumbs";
 // import MuiAccordion from "../components/MuiAccordion";
 // import MuiNavbar from "../components/MuiNavbar";
@@ -28,7 +29,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiSpeedDail />
+      <MuiBottomNavigation />
     </div>
   );
 };
