@@ -23,3 +23,11 @@ theme.typography.h1 = {
     color: "red",
   },
 };
+
+theme.typography.h2 = {
+  [theme.breakpoints.up("lg")]: {
+    fontSize: "6rem",
+    fontFamily: "Arial, sans-serif",
+    color: "red",
+  },
+};
