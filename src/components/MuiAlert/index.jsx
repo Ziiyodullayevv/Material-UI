@@ -28,6 +28,7 @@ const MuiAlert = () => {
         severity="error"
         action={<Button color="inherit">UNDO</Button>}
       >
+        <AlertTitle>Error</AlertTitle>
         This is an error alert
       </Alert>
       <Alert variant="filled" severity="warning">
