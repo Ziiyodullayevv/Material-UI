@@ -3,7 +3,8 @@ import React from "react";
 // import MuiList from "../components/MuiList";
 // import MuiChip from "../components/MuiChip";
 // import MuiTooltip from "../components/MuiTooltip";
-import MuiTable from "../components/MuiTable";
+// import MuiTable from "../components/MuiTable";
+import MuiAlert from "../components/MuiAlert";
 // import MuiBottomNavigation from "../components/BottomNavigation";
 // import MuiAvatar from "../components/MuiAvatar";
 // import MuiDrawer from "../components/MuiDrawer";
@@ -35,7 +36,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiTable />
+      <MuiAlert />
     </div>
   );
 };
