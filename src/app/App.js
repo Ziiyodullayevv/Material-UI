@@ -1,8 +1,9 @@
 import React from "react";
-import MuiBadge from "../components/MuiBadge";
-import MuiList from "../components/MuiList";
-import MuiChip from "../components/MuiChip";
-import MuiTooltip from "../components/MuiTooltip";
+// import MuiBadge from "../components/MuiBadge";
+// import MuiList from "../components/MuiList";
+// import MuiChip from "../components/MuiChip";
+// import MuiTooltip from "../components/MuiTooltip";
+import MuiTable from "../components/MuiTable";
 // import MuiBottomNavigation from "../components/BottomNavigation";
 // import MuiAvatar from "../components/MuiAvatar";
 // import MuiDrawer from "../components/MuiDrawer";
@@ -34,10 +35,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiBadge />
-      <MuiList />
-      <MuiChip />
-      <MuiTooltip />
+      <MuiTable />
     </div>
   );
 };
