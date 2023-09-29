@@ -1,5 +1,6 @@
 import React from "react";
-import MuiSnackbar from "../components/MuiSnackbar";
+import MuiDialog from "../components/MuiDialog";
+// import MuiSnackbar from "../components/MuiSnackbar";
 // import MuiBadge from "../components/MuiBadge";
 // import MuiList from "../components/MuiList";
 // import MuiChip from "../components/MuiChip";
@@ -37,7 +38,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiSnackbar />
+      <MuiDialog />
     </div>
   );
 };

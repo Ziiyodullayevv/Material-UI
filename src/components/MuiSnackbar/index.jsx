@@ -14,7 +14,7 @@ const MuiSnackbar = () => {
     setOpen(false);
   };
   return (
-    <React.Fragment>
+    <div>
       <Button onClick={() => setOpen(true)}>Submit</Button>
       {/*  <Snackbar
         message="Form submitted successfully"
@@ -26,9 +26,11 @@ const MuiSnackbar = () => {
 
       {/*Cutimization */}
       <Snackbar open={open} autoHideDuration={5000} onClose={handleClose}>
-        <SnackbarAlert onClose={handleClose}>Form Submited</SnackbarAlert>
+        <SnackbarAlert onClose={handleClose} severity="success">
+          Form Submited
+        </SnackbarAlert>
       </Snackbar>
-    </React.Fragment>
+    </div>
   );
 };
 
