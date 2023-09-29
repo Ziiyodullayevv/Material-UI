@@ -10,6 +10,11 @@ const MuiProgress = () => {
       <LinearProgress />
       <LinearProgress color="success" />
       <LinearProgress variant="determinate" value={70} color="success" />
+      <LinearProgress variant="determinate" value={70} color="success" />
+      <LinearProgress variant="determinate" value={70} color="success" />
+      <LinearProgress variant="determinate" value={70} color="success" />
+      <LinearProgress variant="determinate" value={70} color="success" />
+      <LinearProgress variant="determinate" value={70} color="success" />
     </Stack>
   );
 };
