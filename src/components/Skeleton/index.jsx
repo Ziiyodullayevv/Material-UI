@@ -31,6 +31,17 @@ const MuiSkeleton = () => {
         />
       </Stack>
 
+      <Stack sx={{ textAlign: "center" }} m={5} spacing={1} width={"250px"}>
+        <Skeleton variant="text" />
+        <Skeleton variant="circular" width={40} height={40} />
+        <Skeleton
+          variant="rectangular"
+          width={250}
+          height={125}
+          animation={"pulse"}
+        />
+      </Stack>
+
       <Grid className="container" container>
         {loading ? (
           // Skeletonning chiqarish qismi
