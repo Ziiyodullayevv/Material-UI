@@ -36,6 +36,24 @@ const MuiTypography = () => {
         eius cupiditate ipsa! Omnis excepturi minima explicabo laborum
         perferendis quasi itaque laudantium.
       </Typography>
+
+      <Typography variant="body2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laborum
+        deserunt sit, obcaecati at ratione dolor tempore atque ullam mollitia
+        placeat quia quidem veniam in necessitatibus consectetur rerum maiores
+        sed ad explicabo minima unde hic exercitationem inventore? Repudiandae
+        eius cupiditate ipsa! Omnis excepturi minima explicabo laborum
+        perferendis quasi itaque laudantium.
+      </Typography>
+
+      <Typography variant="body2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe laborum
+        deserunt sit, obcaecati at ratione dolor tempore atque ullam mollitia
+        placeat quia quidem veniam in necessitatibus consectetur rerum maiores
+        sed ad explicabo minima unde hic exercitationem inventore? Repudiandae
+        eius cupiditate ipsa! Omnis excepturi minima explicabo laborum
+        perferendis quasi itaque laudantium.
+      </Typography>
     </ThemeProvider>
   );
 };
