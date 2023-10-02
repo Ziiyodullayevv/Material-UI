@@ -33,6 +33,8 @@ const MuiSelect = () => {
             <MenuItem value={10}>Ten</MenuItem>
             <MenuItem value={20}>Twenty</MenuItem>
             <MenuItem value={30}>Thirty Hover effecti</MenuItem>
+            <MenuItem value={30}>Fifty Hover effecti</MenuItem>
+            <MenuItem value={30}>Sixy Hover effecti</MenuItem>
           </Select>
         </FormControl>
       </Box>
