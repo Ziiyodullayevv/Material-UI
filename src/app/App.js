@@ -1,6 +1,7 @@
 import React from "react";
 // import MuiSkeleton from "../components/Skeleton";
-import MuiLoaderBtn from "../components/MuiLoaderBtn";
+// import MuiLoaderBtn from "../components/MuiLoaderBtn";
+import MuiTimeline from "../components/MuiTimeline";
 // import MuiDialog from "../components/MuiDialog";
 // import MuiProgress from "../components/Progress";
 // import MuiSnackbar from "../components/MuiSnackbar";
@@ -41,7 +42,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiLoaderBtn />
+      <MuiTimeline />
     </div>
   );
 };
