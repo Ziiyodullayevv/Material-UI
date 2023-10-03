@@ -13,7 +13,7 @@ const MuiResponsive = () => {
           lg: 500, // 1200;
           xl: 700, // 1536;
         },
-        bgcolor: "primary.main",
+        bgcolor: "qizgish.main",
       }}
     >
       MuiResponsive

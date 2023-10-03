@@ -37,15 +37,17 @@ import MuiResponsive from "../components/MuiResponsive";
 // import ButtonMaterial from "../components/Button";
 // import MuiTextField from "../components/MuiTextField";
 // import MuiSelect from "../components/MuiSelect";
+import { theme } from "../components/MuiTheme";
+import { ThemeProvider } from "@emotion/react";
 
 const App = () => {
   return (
-    <div>
+    <ThemeProvider theme={theme}>
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
       <MuiResponsive />
-    </div>
+    </ThemeProvider>
   );
 };
 
