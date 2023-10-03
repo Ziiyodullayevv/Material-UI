@@ -3,7 +3,7 @@ import React from "react";
 // import MuiLoaderBtn from "../components/MuiLoaderBtn";
 // import MuiTimeline from "../components/MuiTimeline";
 // import MuiMasonry from "../components/MuiMasonry";
-import MuiResponsive from "../components/MuiResponsive";
+// import MuiResponsive from "../components/MuiResponsive";
 // import MuiDialog from "../components/MuiDialog";
 // import MuiProgress from "../components/Progress";
 // import MuiSnackbar from "../components/MuiSnackbar";
@@ -39,6 +39,7 @@ import MuiResponsive from "../components/MuiResponsive";
 // import MuiSelect from "../components/MuiSelect";
 import { theme } from "../components/MuiTheme";
 import { ThemeProvider } from "@emotion/react";
+import MuiPagination from "../components/MuiPagination";
 
 const App = () => {
   return (
@@ -46,7 +47,7 @@ const App = () => {
       {/* <Typography />*/}
       {/* <ButtonMaterial />*/}
       {/*<MuiTextField />*/}
-      <MuiResponsive />
+      <MuiPagination />
     </ThemeProvider>
   );
 };
